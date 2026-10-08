@@ -1,4 +1,4 @@
-## This Project Was Created With Help From Claude and Qwen3.5 Along With Touch Ups by Me  |  Windows and Linux Binaries Coming Soon | GPU/Cuda Does Not Work On Linux Build
+## This Project Was Created With Help From Claude and Qwen3.5 Along With Touch Ups by Me | GPU/Cuda Does Not Work On Linux Build
 
 # livecaption - offline live captions for Linux/Windows.
 
