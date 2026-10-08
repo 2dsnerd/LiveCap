@@ -6,7 +6,7 @@ Captures system audio (whatever you hear) or your microphone, transcribes it
 locally with faster-whisper, and shows rolling captions in a draggable,
 always-on-top overlay (or in the terminal).
 
-# Requirements
+# Dependencies
 ## Linux
 ```bash
 pip install --user --break-system-packages faster-whisper
@@ -14,8 +14,10 @@ pip install --user --break-system-packages faster-whisper
 ```bash
 sudo apt install pulseaudio-utils python3-tk numpy   # parec/pactl + tkinter
 ```
-
-## Windows - Coming Soon
+## Windows
+```bash
+py -m pip install numpy faster-whisper sounddevice PyAudioWPatch
+```
 
 Usage - All Can Be Done Within The Settings Menu As Well | Recommend Using tiny.en or tiny As Your Model
 -----
@@ -41,5 +43,5 @@ Overlay controls
   Double-click / right-click   - settings and menu
 
 <br>
-Settings you "Save" are stored in ~/.config/livecaption/config.json.
+Settings you "Save" are stored in ~/.config/livecaption/config.json and APPDATA.
 Command-line flags override saved settings for that run.
