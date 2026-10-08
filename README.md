@@ -1,4 +1,4 @@
-## This Project Was Created With Help From Claude and Qwen3.5 Along With Touch Ups by Me  |  Windows and Linux Binaries Coming Soon
+## This Project Was Created With Help From Claude and Qwen3.5 Along With Touch Ups by Me  |  Windows and Linux Binaries Coming Soon | GPU/Cuda Does Not Work On Linux Build
 
 # livecaption - offline live captions for Linux/Windows.
 
@@ -17,7 +17,7 @@ sudo apt install pulseaudio-utils python3-tk numpy   # parec/pactl + tkinter
 
 ## Windows - Coming Soon
 
-Usage - All Can Be Done Within The Settings Menu As Well
+Usage - All Can Be Done Within The Settings Menu As Well | Recommend Using tiny.en or tiny As Your Model
 -----
 ```bash
 python3 livecaption.py                  # captions for system audio
